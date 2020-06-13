@@ -2,6 +2,7 @@ package Parsing;
 
 import java.io.*;
 
+//Генерация txt файла
 public class TXTGenerator {
     public static void generate() {
         try {

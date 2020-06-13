@@ -1,11 +1,11 @@
 package Parsing;
 
-import XML.XMLparserColumn;
 import XML.XMLparserSettings;
 
 import java.util.ArrayList;
 import java.util.List;
 
+//Генерация страниц и разметки
 public class ParseGenerator {
     private static final String TILDA = "~";
     private static final String SPACE = " ";
@@ -16,6 +16,7 @@ public class ParseGenerator {
 
     private List<String> stringList = new ArrayList<>();
 
+    //Генерация разделительных черт между колонками
     public StringBuilder generate(){
         List<String> strings = new ArrayList<>();
 
@@ -26,7 +27,7 @@ public class ParseGenerator {
         }
         return builder;
     }
-
+//Генерация пробелов
     private StringBuilder generateColumn(String column) {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append(SPACE);

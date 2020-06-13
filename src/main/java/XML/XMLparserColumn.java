@@ -7,6 +7,8 @@ import lombok.Setter;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
+
+//Парсинг XML документа <column>
 @XmlRootElement(name = "column")
 @Getter
 @Setter

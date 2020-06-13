@@ -7,6 +7,7 @@ import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.List;
 
+//Парсинг Tsv файла с помощью библиотеки univocity
 public class TSVparser {
     public static List<String[]> parseTsv(String fileName)  {
 

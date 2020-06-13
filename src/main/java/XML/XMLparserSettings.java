@@ -9,6 +9,7 @@ import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.util.List;
 
+//Парсинг XML документа <settings>
 @XmlRootElement(name = "settings")
 @Getter
 @Setter

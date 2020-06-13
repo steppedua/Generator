@@ -11,6 +11,8 @@ import javax.xml.stream.XMLStreamReader;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
+
+//Парсинг XML файла с помощью JAXB
 public class XMLparser {
 
     private static XMLparserSettings Settings;
